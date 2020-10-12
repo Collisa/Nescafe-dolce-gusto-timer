@@ -1,0 +1,118 @@
+body {
+    box-sizing: content-box;
+}
+
+main {
+    display: block;
+    max-width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #315659;
+    border-radius: 25px;
+    padding: 25px 0;
+}
+
+.container {
+    background-color: #6EEB83;
+    width: 80%;
+}
+
+.numbers {
+    display: block;
+    max-width: 600px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin: 20px auto;
+}
+
+.lines {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 15px 0;
+}
+
+button {
+    background-color: #ffffff;
+    border: 5px solid #6EEB83;
+    font-weight: bold;
+    font-size: larger;
+}
+
+button:hover {
+    border: none;
+}
+
+.num {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.start {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.start:hover {
+    background-color: #6EEB83;
+    border: 10px solid #315659;
+    color: #315659;
+    width: 200px;
+}
+
+/* styling for the stripes in the middle of the app */
+
+.line {
+    display: block;
+    margin: 15px auto;
+    background-color: white;
+    height: 15px;
+    border-radius: 25px;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.coloured {
+    background-color: black !important;
+}
+
+.last {
+    width: 70%;
+}
+
+.six {
+    width: 62.5%;
+}
+
+.five {
+    width: 55%;
+}
+
+.four {
+    width: 47.5%;
+}
+
+.three {
+    width: 40%;
+}
+
+.two {
+    width: 32.5%;
+}
+
+.first {
+    width: 25%;
+}
+
+/* settings for smaller screens */
+
+@media only screen and (max-width: 650px) {
+    main {
+        max-width: 100%;
+    }
+  }
