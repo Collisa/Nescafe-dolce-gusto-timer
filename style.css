@@ -173,6 +173,9 @@ button:hover {
     .coffee {
         display: inline-block;
         width: auto;
-        height: 6rem;
+        height: 3.5rem;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
     }
 }
