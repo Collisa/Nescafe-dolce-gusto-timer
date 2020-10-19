@@ -1,5 +1,23 @@
+* {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     box-sizing: content-box;
+    background-image: url("src/nathan-dumlao-pnmRtTHWqDM-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 main {
@@ -7,14 +25,14 @@ main {
     max-width: 35%;
     margin: 0 auto;
     text-align: center;
-    background-color: #315659;
+    background-color: #824d40;
     border-radius: 25px;
     padding: 25px 0;
     position: relative;
 }
 
 svg {
-    background-color: white;
+    background-color: #cfc7bf;
     position: absolute;
     left: 1rem;
     padding: 0.75rem;
@@ -27,7 +45,7 @@ svg:hover {
 }
 
 .container {
-    background-color: #6EEB83;
+    background-color: #bf9268;
     width: 80%;
 }
 
@@ -47,10 +65,11 @@ svg:hover {
 }
 
 button {
-    background-color: #ffffff;
-    border: 5px solid #6EEB83;
+    background-color: #cfc7bf;
+    border: 5px solid #bf9268;
     font-weight: bold;
     font-size: larger;
+    line-height: 2.375rem;
 }
 
 button:hover {
@@ -71,18 +90,19 @@ button:hover {
 }
 
 .start:hover {
-    background-color: #6EEB83;
-    border: 10px solid #315659;
-    color: #315659;
+    background-color: #bf9268;
+    border: 10px solid #824d40;
+    color: #824d40;
     width: 200px;
 }
+
 
 /* styling for the stripes in the middle of the app */
 
 .line {
     display: block;
     margin: 15px auto;
-    background-color: white;
+    background-color: #cfc7bf;
     height: 15px;
     border-radius: 25px;
 }
@@ -123,10 +143,36 @@ button:hover {
     width: 25%;
 }
 
+.coffee {
+    display: none;
+}
+
+
 /* settings for smaller screens */
 
 @media only screen and (max-width: 650px) {
+    #container {
+        display: block;
+    }
+    body {
+        margin: 0%;
+    }
     main {
         max-width: 100%;
+        margin: 0;
+        border-radius: 0%;
+        height: 100vh;
     }
-  }
+    svg {
+        left: 1rem;
+        top: 1rem;
+    }
+    .numbers {
+        margin-top: 3rem;
+    }
+    .coffee {
+        display: inline-block;
+        width: auto;
+        height: 6rem;
+    }
+}
