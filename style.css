@@ -185,7 +185,7 @@ button:hover {
 
 
 @media screen and (display-mode: standalone) {
-    .container {
-        overflow-y: hidden;
+    body {
+        overflow: hidden;
     }
 }
