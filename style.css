@@ -201,4 +201,7 @@ button:hover {
     body::-webkit-scrollbar {
         display: none;
     }
+    main {
+        height: 100vh;
+    }
 }
