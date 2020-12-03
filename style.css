@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 #container {
@@ -153,6 +154,7 @@ button:hover {
 @media only screen and (max-width: 650px) {
     #container {
         display: block;
+        height: auto;
     }
     body {
         margin: 0%;
@@ -161,7 +163,7 @@ button:hover {
         max-width: 100%;
         margin: 0;
         border-radius: 0%;
-        height: 100vh;
+        height: 95vh;
     }
     svg {
         left: 1rem;
