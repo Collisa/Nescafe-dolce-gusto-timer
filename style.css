@@ -190,4 +190,7 @@ button:hover {
         width: auto;
         overflow: hidden;
     }
+    body::-webkit-scrollbar {
+        display: none;
+    }
 }
