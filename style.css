@@ -28,7 +28,7 @@ main {
     text-align: center;
     background-color: #824d40;
     border-radius: 25px;
-    padding: 25px 0;
+    padding: 60px 0;
     position: relative;
 }
 
@@ -164,10 +164,11 @@ button:hover {
         margin: 0;
         border-radius: 0%;
         height: 95vh;
+        padding-top: 5rem;
     }
     svg {
         left: 1rem;
-        top: 1rem;
+        top: 4rem;
     }
     .numbers {
         margin-top: 3rem;
@@ -178,7 +179,7 @@ button:hover {
         height: 3.5rem;
         position: absolute;
         right: 1rem;
-        top: 1rem;
+        top: 4rem;
     }
 }
 
@@ -186,8 +187,5 @@ button:hover {
 @media screen and (display-mode: standalone) {
     .container {
         overflow-y: hidden;
-    }
-    main {
-        padding-top: 35px;
     }
 }
