@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-html, body {
+html, body, main {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -202,6 +202,6 @@ button:hover {
         display: none;
     }
     main {
-        height: 100vh;
+        height: 110vh;
     }
 }
