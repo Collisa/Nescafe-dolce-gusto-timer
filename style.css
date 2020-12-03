@@ -181,9 +181,9 @@ button:hover {
 }
 
 
-@media screen and (display-mode: standalone) {
+/* @media screen and (display-mode: standalone) {
     .container {
         padding-top: 88px !important;
         overflow-y: hidden;
     }
-}
+} */
