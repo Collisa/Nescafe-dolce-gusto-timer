@@ -194,7 +194,7 @@ button:hover {
 
 @media screen and (display-mode: standalone) {
     body {
-        height: 100vh;
+        height: 110vh;
         width: auto;
         overflow: hidden;
     }
